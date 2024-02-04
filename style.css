@@ -100,4 +100,10 @@ body {
   font-weight: bold;
   line-height: 2;
   color: #121725;
+  transition: 0.4s;
+}
+
+.b2:hover {
+  box-shadow: 0 25px 20px -20px rgba(84, 230, 175, 0.2);
+  background-color: #b3ffe2;
 }
