@@ -4,49 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Pod request access landing page</title>
   </head>
   <body>
     <div class="title">
       <img src="./assets/desktop/logo.svg" alt="pod logo" />
     </div>
-    <div class="text">
-      <p class="publish">
-        PUBLISH YOUR PODCASTS
-        <span class="publish_">EVERYWHERE.</span>
-      </p>
-      <p class="description">
-        Upload your audio to Pod with a single click. We’ll then distribute your
-        podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
-        more!
-      </p>
+    <div class="container">
+      <div class="text">
+        <p class="publish">
+          PUBLISH YOUR PODCASTS
+          <span class="publish_">EVERYWHERE.</span>
+        </p>
+        <p class="description">
+          Upload your audio to Pod with a single click. We’ll then distribute
+          your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts
+          and more!
+        </p>
+      </div>
+
+      <div class="input-container">
+        <div class="emailInput">
+          <input
+            type="email"
+            class="b1"
+            name="email"
+            placeholder="Email address"
+          />
+          <p class="error">Oops! Please check your email</p>
+        </div>
+
+        <button class="b2">Request Access</button>
+      </div>
+
+      <div class="companies">
+        <img
+          class="spotify"
+          src="./assets/desktop/spotify.svg"
+          alt="spotify logo"
+        />
+        <img
+          class="apple-podcast"
+          src="./assets/desktop/apple-podcast.svg"
+          alt="apple-podcast logo"
+        />
+        <img
+          class="google-podcasts"
+          src="./assets/desktop/google-podcasts.svg"
+          alt="google-podcasts logo"
+        />
+        <img
+          class="pocket-casts"
+          src="./assets/desktop/pocket-casts.svg"
+          alt="pocket-casts logo"
+        />
+      </div>
+      <div class="buttons">
+        <input
+          type="email"
+          class="b1"
+          name="email"
+          placeholder="Email address"
+        />
+        <p class="error">Oops! Please check your email</p>
+        <button class="b2">Request Access</button>
+      </div>
     </div>
-    <div class="companies">
-      <img
-        class="spotify"
-        src="./assets/desktop/spotify.svg"
-        alt="spotify logo"
-      />
-      <img
-        class="apple-podcast"
-        src="./assets/desktop/apple-podcast.svg"
-        alt="apple-podcast logo"
-      />
-      <img
-        class="google-podcasts"
-        src="./assets/desktop/google-podcasts.svg"
-        alt="google-podcasts logo"
-      />
-      <img
-        class="pocket-casts"
-        src="./assets/desktop/pocket-casts.svg"
-        alt="pocket-casts logo"
-      />
-    </div>
-    <div class="buttons">
-      <input type="email" class="b1" name="email" placeholder="Email address" />
-      <button class="b2">Request Access</button>
-    </div>
+    <img
+      class="dots"
+      src="./assets/desktop/bg-pattern-dots.svg"
+      alt="dots pattern"
+    />
   </body>
 </html>
