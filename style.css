@@ -10,8 +10,8 @@
 body {
   height: 100vh;
   background-image: url(./assets/mobile/image-host.jpg);
-  background-color: rgba(18, 23, 37, 0.9);
-  background-blend-mode: darken;
+  background-color: rgba(18, 23, 37, 0.999);
+  background-blend-mode: overlay;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,11 +162,12 @@ body {
     background-image: url(./assets/tablet/image-host.jpg);
     background-position: top right;
     background-size: 59.5%;
+    background-blend-mode: lighten;
     gap: 152px;
   }
 
   .container {
-    width: 635px;
+    width: 660px;
     align-items: flex-start;
     background-color: #121725;
     padding: 10px;
